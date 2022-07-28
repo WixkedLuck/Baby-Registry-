@@ -1,1 +1,23 @@
+*{
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
 
+header{
+    background-color: rgb(169, 226, 237);
+    font-size: large;
+    padding-top: 8px;
+}
+header nav{
+    text-decoration: none;
+}
+
+body{
+
+background-image: url("http://media-api.xogrp.com/images/e2c888d6-5e64-47bf-b379-9392249f8e43");
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+footer{
+}
