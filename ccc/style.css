@@ -1,23 +1,140 @@
-*{
+
+header {
+    font-family: cursive;
+    padding-top: 1px;
+    
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png")
+}
+
+header h1 {
+    padding-top: 30px;
+    text-align: center;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+header nav {
+    text-align: right;
+    justify-content: end;
+}
+header nav a{
+    margin-left: 10px;
+}
+a {
     color: white;
-    font-family:'Times New Roman', Times, serif
-}
-
-/* header{
-    background-color: rgb(169, 226, 237);
-    font-size: large;
-    padding-top: 8px;
-}
-header nav{
     text-decoration: none;
-} */
+    font-size: 36px;
+    background:
+      linear-gradient(
+        to right,
+        #5271ff,
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  
+  a:hover {
+    background-size: 0 3px, 100% 3px;
+  }
 
-body{
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+  }
+  
 
-background-image: url("http://media-api.xogrp.com/images/e2c888d6-5e64-47bf-b379-9392249f8e43");
-background-repeat: no-repeat;
-background-size:cover;
-
+body {
+    margin: 0;
+    background-image: url("https://cdn.wallpapersafari.com/99/44/OP9Mei.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
-footer{
+.aboutUs{
+    color: white;
+    margin: 30px;
+    font-family: cursive;
 }
+.about{
+    font-size: 20px;
+   
+    border-bottom: solid rgba(0, 0, 255, 0.404) 2px;
+}
+.SectionHdr{
+    font-size: 36px;
+    color: white;
+}
+.center{
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+footer {
+    text-align: end;
+}
+
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  
+  }}
+
+  @media screen and (max-width: 980px) {
+    header{
+        justify-content: center;
+        text-align: center;  
+    }
+    header nav {
+       flex-direction: column;
+       justify-content:center;
+        text-align: center;
+       
+       
+      
+       
+    }
+   body{
+    justify-content: center;
+    text-align: center;
+   }
+  }
