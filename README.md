@@ -18,7 +18,7 @@ Clone the repository on GitHub then open Git on your local machine. First find a
 The purpose of this project is to make a functional webpage that links our baby registry's in one spot. Feel free to reach out to us if you have any problems!
 
 
-![Project01-CafeZest](./images/ProjectZest.PNG)
+![Project01-CafeZest](./images/MediaQuery.png)
 
 # Deployed Site 
 
