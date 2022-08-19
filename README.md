@@ -22,5 +22,5 @@ The purpose of this project is to make a functional webpage that links our baby 
 
 # Deployed Site 
 
-https://wixkedluck.github.io/Zess-T-repository/
+https://wixkedluck.github.io/Baby-Registry-/
 
