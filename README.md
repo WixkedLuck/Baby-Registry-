@@ -15,7 +15,7 @@ Clone the repository on GitHub then open Git on your local machine. First find a
 - To deploy to your ide type code. 
 
 # Usage 
-The purpose of this project is to make a functional webpage that links our baby registry's in one spot. Feel free to reach out to us if you have any problems!
+The purpose of this project is to make a functional webpage that links our baby registries in one spot. Feel free to reach out to us if you have any problems!
 
 
 ![Project01-CafeZest](./images/image0.png)
